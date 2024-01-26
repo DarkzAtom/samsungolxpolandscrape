@@ -26,6 +26,7 @@ def scrapesite():
 
     products = soup.select('div.css-1sw7q4x')
 
+    item = None
     product_list = []
     temp_id = 'temp_id.txt'
     temp_id_wyrozn = 'temp_id_wyrozn.txt'
